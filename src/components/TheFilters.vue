@@ -10,7 +10,10 @@ const currRegion = ref("All Regions");
 </script>
 
 <template>
-  <div class="d-md-flex justify-space-between">
+  <div 
+    class="mx-auto d-md-flex justify-space-between"
+    style="max-width: 1440px;"
+  >
     <!-- Search Bar -->
     <v-responsive :max-width="mdAndUp ? 500 : 'auto'">
       <v-text-field
