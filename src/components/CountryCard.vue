@@ -31,7 +31,9 @@ defineProps({
         </v-card-text>
         
         <v-card-actions>
-          <v-btn color="primary"> See More </v-btn>
+          <v-btn color="primary">
+            <RouterLink :to="`/country/${country.name}`">See More</RouterLink>
+          </v-btn>
         </v-card-actions>
       </v-card>
     </v-hover>
