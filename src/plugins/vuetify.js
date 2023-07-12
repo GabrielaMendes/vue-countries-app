@@ -24,6 +24,7 @@ export default createVuetify({
           "text-secondary": "#656565",
           primary: "#009688",
           secondary: "#80CBC4",
+          tertiary: "#E0F2F1",
         },
       },
       dark: {
@@ -34,6 +35,7 @@ export default createVuetify({
           "text-secondary": "#90A4AE",
           primary: "#00BFA5",
           secondary: "#64FFDA",
+          tertiary: "#00695C",
         },
       },
     },
